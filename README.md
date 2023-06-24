@@ -8,6 +8,11 @@
 
 - Hands-on - Project [Backroads App](https://sm-react-backroads.netlify.app/)🔗
 
+### 🔶 Advanced React with hands-on projects
+
+- useState
+  - Hands-on - Project [Birthday Buddy](https://sm-react-birthday-buddy.netlify.app/)🔗
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
