@@ -11,7 +11,11 @@
 ### 🔶 Advanced React with hands-on projects
 
 - useState
+
   - Hands-on - Project [Birthday Buddy](https://sm-react-birthday-buddy.netlify.app/)🔗
+
+- useEffect
+  - Hands-on - Project [Tours](https://sm-react-tours.netlify.app/)🔗
 
 ---
 
