@@ -16,6 +16,7 @@
 
 - useEffect
   - Hands-on - Project [Tours](https://sm-react-tours.netlify.app/)🔗
+  - Hands-on - Project [Reviews](https://sm-react-reviews.netlify.app/)🔗
 
 ---
 
