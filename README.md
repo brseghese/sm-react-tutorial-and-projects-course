@@ -19,6 +19,7 @@
   - Hands-on - Project [Reviews](https://sm-react-reviews.netlify.app/)🔗
   - Hands-on - Project [Questions](https://sm-react-questions.netlify.app/)🔗
   - Hands-on - Project [Menu](https://sm-react-menu.netlify.app/)🔗
+  - Hands-on - Project [Tabs](https://sm-react-tabs.netlify.app/)🔗
 
 ---
 
