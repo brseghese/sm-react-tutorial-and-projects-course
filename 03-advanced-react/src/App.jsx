@@ -19,12 +19,20 @@
 // import Starter from './tutorial/03-conditional-rendering/04-short-circuit-overview';
 // import Starter from './tutorial/03-conditional-rendering/05-short-circuit-examples';
 // import Starter from './tutorial/03-conditional-rendering/06-toggle-challenge';
-import Starter from './tutorial/03-conditional-rendering/07-user-challenge';
+// import Starter from './tutorial/03-conditional-rendering/07-user-challenge';
+
+// import Starter from './tutorial/04-project-structure/';
+// import Navbar from './tutorial/04-project-structure/Navbar';
+
+// import About from './tutorial/04-project-structure/Pages/About';
+// import Home from './tutorial/04-project-structure/Pages/Home';
+// import { Home, About } from './tutorial/04-project-structure/Pages';
+import Example from './tutorial/04-project-structure/Example';
 
 function App() {
   return (
     <div className="container">
-      <Starter />
+      <Example />
     </div>
   );
 }
