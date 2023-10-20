@@ -28,13 +28,18 @@
 // import { Home, About } from './tutorial/04-project-structure/Pages';
 // import Example from './tutorial/04-project-structure/Example';
 
-import List from './tutorial/05-leverage-javascript/List';
+// import List from './tutorial/05-leverage-javascript/List';
+
+// import Starter from './tutorial/06-forms/01-controlled-inputs';
+// import Starter from './tutorial/06-forms/02-user-challenge';
+// import Starter from './tutorial/06-forms/03-multiple-inputs';
+// import Starter from './tutorial/06-forms/04-other-inputs';
+import Starter from './tutorial/06-forms/05-form-data';
 
 function App() {
   return (
-    <div className="container">
-      <h2>Leverage Javascript</h2>
-      <List />
+    <div className='container'>
+      <Starter />
     </div>
   );
 }
