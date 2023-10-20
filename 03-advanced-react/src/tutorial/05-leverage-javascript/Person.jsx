@@ -1,11 +1,13 @@
 import avatar from '../../assets/default-avatar.svg';
 
+// eslint-disable-next-line react/prop-types
 const Person = ({ name, nickName = 'shakeAndBake', images }) => {
   // before optional chaining
 
   // const img =
   //   (images && images[0] && images[0].small && images[0].small.url) || avatar;
 
+  // eslint-disable-next-line react/prop-types
   const img = images?.[0]?.small?.url || avatar;
   return (
     <div>
