@@ -10,22 +10,16 @@
 
 ### 🔶 Advanced React with hands-on projects
 
-- useState
-
-  - Hands-on - Project [Birthday Buddy](https://sm-react-birthday-buddy.netlify.app/)🔗
-
-- useEffect
-
-  - Hands-on - Project [Tours](https://sm-react-tours.netlify.app/)🔗
-  - Hands-on - Project [Reviews](https://sm-react-reviews.netlify.app/)🔗
-  - Hands-on - Project [Questions](https://sm-react-questions.netlify.app/)🔗
-  - Hands-on - Project [Menu](https://sm-react-menu.netlify.app/)🔗
-  - Hands-on - Project [Tabs](https://sm-react-tabs.netlify.app/)🔗
-  - Hands-on - Project [Slider](https://sm-react-slider.netlify.app/)🔗
-
-- forms
-
-  - Hands-on - Project [Lorem Ipsun](https://sm-react-lorem-ipsum.netlify.app/)🔗
+- Hands-on - Project [Birthday Buddy](https://sm-react-birthday-buddy.netlify.app/)🔗
+- Hands-on - Project [Tours](https://sm-react-tours.netlify.app/)🔗
+- Hands-on - Project [Reviews](https://sm-react-reviews.netlify.app/)🔗
+- Hands-on - Project [Questions](https://sm-react-questions.netlify.app/)🔗
+- Hands-on - Project [Menu](https://sm-react-menu.netlify.app/)🔗
+- Hands-on - Project [Tabs](https://sm-react-tabs.netlify.app/)🔗
+- Hands-on - Project [Slider](https://sm-react-slider.netlify.app/)🔗
+- Hands-on - Project [Lorem Ipsun](https://sm-react-lorem-ipsum.netlify.app/)🔗
+- Hands-on - Project [Color Generator](https://sm-react-color-generator.netlify.app/)🔗
+  <br>
 
 ---
 
