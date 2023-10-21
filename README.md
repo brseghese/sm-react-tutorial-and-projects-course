@@ -19,7 +19,7 @@
 - Hands-on - Project [Slider](https://sm-react-slider.netlify.app/)🔗
 - Hands-on - Project [Lorem Ipsun](https://sm-react-lorem-ipsum.netlify.app/)🔗
 - Hands-on - Project [Color Generator](https://sm-react-color-generator.netlify.app/)🔗
-  <br>
+- Hands-on - Project [Grocery Bud](https://sm-react-grocery-bud.netlify.app/)🔗
 
 ---
 
