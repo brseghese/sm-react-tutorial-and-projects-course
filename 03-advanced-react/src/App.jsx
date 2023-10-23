@@ -39,7 +39,11 @@
 // import Starter from './tutorial/07-useRef/01-useRef-basics';
 
 // import Starter from './tutorial/08-custom-hooks/01-toggle';
-import Starter from './tutorial/08-custom-hooks/02-fetch-data';
+// import Starter from './tutorial/08-custom-hooks/02-fetch-data';
+
+// import Starter from './tutorial/09-context-api/prop-drilling/Navbar';
+// import Starter from './tutorial/09-context-api/context/Navbar';
+import Starter from './tutorial/09-context-api/custom-context/Navbar';
 
 function App() {
   return (
