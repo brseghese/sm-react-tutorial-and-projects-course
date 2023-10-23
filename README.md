@@ -21,6 +21,7 @@
 - Hands-on - Project [Color Generator](https://sm-react-color-generator.netlify.app/)🔗
 - Hands-on - Project [Grocery Bud](https://sm-react-grocery-bud.netlify.app/)🔗
 - Hands-on - Project [Navbar](https://sm-react-navbar.netlify.app/)🔗
+- Hands-on - Project [Sidebar](https://sm-react-sidebar.netlify.app/)🔗
 
 ---
 
