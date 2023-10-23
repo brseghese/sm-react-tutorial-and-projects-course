@@ -36,7 +36,10 @@
 // import Starter from './tutorial/06-forms/04-other-inputs';
 // import Starter from './tutorial/06-forms/05-form-data';
 
-import Starter from './tutorial/07-useRef/01-useRef-basics';
+// import Starter from './tutorial/07-useRef/01-useRef-basics';
+
+// import Starter from './tutorial/08-custom-hooks/01-toggle';
+import Starter from './tutorial/08-custom-hooks/02-fetch-data';
 
 function App() {
   return (
