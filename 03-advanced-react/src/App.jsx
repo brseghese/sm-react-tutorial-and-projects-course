@@ -43,7 +43,9 @@
 
 // import Starter from './tutorial/09-context-api/prop-drilling/Navbar';
 // import Starter from './tutorial/09-context-api/context/Navbar';
-import Starter from './tutorial/09-context-api/custom-context/Navbar';
+// import Starter from './tutorial/09-context-api/custom-context/Navbar';
+
+import Starter from './tutorial/10-useReducer/01-useReducer';
 
 function App() {
   return (
