@@ -45,7 +45,12 @@
 // import Starter from './tutorial/09-context-api/context/Navbar';
 // import Starter from './tutorial/09-context-api/custom-context/Navbar';
 
-import Starter from './tutorial/10-useReducer/01-useReducer';
+// import Starter from './tutorial/10-useReducer/01-useReducer';
+
+// import Starter from './tutorial/11-performance/01-lower-state';
+// import Starter from './tutorial/11-performance/02-lower-state-challenge';
+// import Starter from './tutorial/11-performance/03-hooks';
+import Starter from './tutorial/11-performance/04-react-18';
 
 function App() {
   return (
