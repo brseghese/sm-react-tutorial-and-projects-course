@@ -23,6 +23,7 @@
 - Hands-on - Project [Navbar](https://sm-react-navbar.netlify.app/)🔗
 - Hands-on - Project [Sidebar](https://sm-react-sidebar.netlify.app/)🔗
 - Hands-on - Project [Submenu](https://sm-react-submenu.netlify.app/)🔗
+- Hands-on - Project [Cart](https://sm-react-cart.netlify.app/)🔗
 
 ---
 
