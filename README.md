@@ -25,6 +25,10 @@
 - Hands-on - Project [Submenu](https://sm-react-submenu.netlify.app/)🔗
 - Hands-on - Project [Cart](https://sm-react-cart.netlify.app/)🔗
 
+### 🔶 Axios Library
+
+### 🔶 React Query
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
