@@ -29,6 +29,8 @@
 
 ### 🔶 React Query
 
+- Hands-on - Project [Unsplash Images](https://sm-react-unsplash-images.netlify.app/)🔗
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
