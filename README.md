@@ -30,6 +30,7 @@
 ### 🔶 React Query
 
 - Hands-on - Project [Unsplash Images](https://sm-react-unsplash-images.netlify.app/)🔗
+- Hands-on - Project [Contentful CMS](https://sm-react-contentful-cms.netlify.app/)🔗
 
 ---
 
