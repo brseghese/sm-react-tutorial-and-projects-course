@@ -32,6 +32,8 @@
 - Hands-on - Project [Unsplash Images](https://sm-react-unsplash-images.netlify.app/)🔗
 - Hands-on - Project [Contentful CMS](https://sm-react-contentful-cms.netlify.app/)🔗
 
+### 🔶 React Router 6.4 and React Query
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
