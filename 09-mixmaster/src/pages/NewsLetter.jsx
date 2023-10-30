@@ -1,5 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const NewsLetter = () => {
-  return <h1>NewsLetter</h1>;
+  return (
+    <div>
+      <h1>NewsLetter</h1>
+      <Link to='/'>Home Page</Link>
+    </div>
+  );
 };
 
 export default NewsLetter;

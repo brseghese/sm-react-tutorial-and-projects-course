@@ -1,5 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const Cocktail = () => {
-  return <h1>Cocktail</h1>;
+  return (
+    <div>
+      <h1>Cocktail</h1>
+      <Link to='/'>Home Page</Link>
+    </div>
+  );
 };
 
 export default Cocktail;
