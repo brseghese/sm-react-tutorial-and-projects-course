@@ -4,7 +4,6 @@ const Cocktail = () => {
   return (
     <div>
       <h1>Cocktail</h1>
-      <Link to='/'>Home Page</Link>
     </div>
   );
 };
