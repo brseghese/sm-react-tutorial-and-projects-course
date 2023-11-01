@@ -17,13 +17,17 @@ const searchCocktailsQuery = (searchTerm) => {
   };
 };
 
-export const loader = async ({ request }) => {
-  const url = new URL(request.url);
+export const loader =
+  (queryClient) =>
+  async ({ request }) => {
+    const url = new URL(request.url);
 
-  const searchTerm = url.searchParams.get('search') || '';
-  // const response = await axios.get(`${cocktailSearchUrl}${searchTerm}`);
-  return { searchTerm };
-};
+    const searchTerm = url.searchParams.get('search') || '';
+
+    await queryClient.ensureQueryData(searchCocktailsQuery(searchTerm));
+
+    return { searchTerm };
+  };
 
 const Landing = () => {
   const { searchTerm } = useLoaderData();
