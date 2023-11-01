@@ -8,10 +8,15 @@ export const action = async ({ request }) => {
   const formData = await request.formData();
   const data = Object.fromEntries(formData);
 
-  const response = await axios.post(newsletterUrl, data);
-  console.log(response);
-  toast.success(response.data.msg);
-  return redirect('/');
+  try {
+    const response = await axios.post(newsletterUrl, data);
+    toast.success(response.data.msg);
+    return redirect('/');
+  } catch (error) {
+    console.log(error);
+    toast.error(error?.response?.data?.msg);
+    return error;
+  }
 };
 
 const NewsLetter = () => {
@@ -30,7 +35,7 @@ const NewsLetter = () => {
           className='form-input'
           name='name'
           id='name'
-          defaultValue='john'
+          required
         />
       </div>
 
@@ -43,7 +48,7 @@ const NewsLetter = () => {
           className='form-input'
           name='lastName'
           id='lastName'
-          defaultValue='smith'
+          required
         />
       </div>
 
@@ -57,6 +62,7 @@ const NewsLetter = () => {
           name='email'
           id='email'
           defaultValue='test@test.com'
+          required
         />
       </div>
 
