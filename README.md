@@ -34,7 +34,7 @@
 
 ### 🔶 React Router 6.4 and React Query
 
-- Hands-on - Project [MixMaster](https://sm-react-mixmaster.netlify.app/)
+- Hands-on - Project [MixMaster](https://sm-react-mixmaster.netlify.app/)🔗
 
 ---
 
