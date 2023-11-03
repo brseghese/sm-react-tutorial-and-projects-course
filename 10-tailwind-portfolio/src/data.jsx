@@ -2,6 +2,12 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 
+import imgBickcreft from './assets/bickcreft.svg';
+import imgOmnifood from './assets/omnifood.svg';
+import imgNatours from './assets/natours.svg';
+import imgTrillo from './assets/trillo.svg';
+import imgNexter from './assets/nexter.svg';
+
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
@@ -46,7 +52,8 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    img: '../src/assets/bickcreft.png',
+    // img: '../src/assets/bickcreft.svg',
+    img: imgBickcreft,
     url: 'https://brseghese.github.io/origamid-bikcraft/',
     github: 'https://github.com/brseghese',
     title: 'Bickcreft - Bicicletas Artesanais',
@@ -55,7 +62,8 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    img: '../src/assets/omnifood.png',
+    // img: '../src/assets/omnifood.svg',
+    img: imgOmnifood,
     url: 'https://js-omnifood.netlify.app/',
     github: 'https://github.com/brseghese',
     title: 'Omnifood - Receitas de Pratos',
@@ -64,7 +72,8 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    img: '../src/assets/trillo.png',
+    // img: '../src/assets/trillo.svg',
+    img: imgTrillo,
     url: 'https://js-trillo.netlify.app/',
     github: 'https://github.com/brseghese',
     title: 'Trillo - Reservas de Hotel',
@@ -73,7 +82,8 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    img: '../src/assets/natours.png',
+    // img: '../src/assets/natours.svg',
+    img: imgNatours,
     url: 'https://js-natours.netlify.app/',
     github: 'https://github.com/brseghese',
     title: 'Natours - Agência de Viagens',
@@ -82,7 +92,8 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    img: '../src/assets/nexter.png',
+    // img: '../src/assets/nexter.svg',
+    img: imgNexter,
     url: 'https://js-nexter.netlify.app/',
     github: 'https://github.com/brseghese',
     title: 'Nexter - Imobiliária',
