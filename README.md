@@ -36,6 +36,10 @@
 
 - Hands-on - Project [MixMaster](https://sm-react-mixmaster.netlify.app/)🔗
 
+### 🔶 Tailwind CSS and React
+
+- Hands-on - Project [Tailwind Portfolio](https://sm-react-tailwind-portfolio.netlify.app/)🔗
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
