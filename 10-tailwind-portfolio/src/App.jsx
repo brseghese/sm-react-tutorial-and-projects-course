@@ -1,6 +1,4 @@
 import About from './components/About';
-import About2 from './components/About2';
-
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -12,7 +10,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
-      <About2 />
       <About />
       <Projects />
     </>

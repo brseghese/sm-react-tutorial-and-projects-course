@@ -14,13 +14,25 @@ const Hero = () => {
             HTML | CSS | JavaScript | React.js | Node.js
           </p>
           <div className='flex gap-x-4 mt-4'>
-            <a href='#'>
+            <a
+              href='https://github.com/brseghese'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FaGithubSquare className='h-8 w-8 text-slate-500  hover:text-emerald-600 duration-300' />
             </a>
-            <a href='#'>
+            <a
+              href='https://www.linkedin.com/in/brunoseghese/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FaLinkedin className='h-8 w-8 text-slate-500  hover:text-emerald-600 duration-300' />
             </a>
-            <a href='#'>
+            <a
+              href='https://twitter.com/brseghese'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FaTwitterSquare className='h-8 w-8 text-slate-500  hover:text-emerald-600 duration-300' />
             </a>
           </div>

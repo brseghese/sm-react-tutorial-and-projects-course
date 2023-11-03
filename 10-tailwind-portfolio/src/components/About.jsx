@@ -1,4 +1,4 @@
-import aboutSvg from '../assets/about.svg';
+import aboutSvg from '../assets/progressive.svg';
 import SectionTitle from './SectionTitle';
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <div className='align-element grid  md:grid-cols-2 items-center gap-16'>
         <img src={aboutSvg} className='w-full h-64' />
         <article>
-          <SectionTitle text='Projetos Personalizados' />
+          <SectionTitle text='Desenvolvimento de Sistemas Web, API`s e aplicativos' />
           <p className='text-slate-600 mt-8 leading-loose'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
             omnis exercitationem tempora, aliquid deleniti tenetur vero esse
