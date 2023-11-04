@@ -40,6 +40,10 @@
 
 - Hands-on - Project [Tailwind Portfolio](https://sm-react-tailwind-portfolio.netlify.app/)🔗
 
+### 🔶 Redux Toolkit
+
+- Hands-on - Project [Cart Redux](https://sm-react-cart-redux.netlify.app/)🔗
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
