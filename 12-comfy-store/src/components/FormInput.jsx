@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const FormInput = ({ label, name, type, defaultValue }) => {
   return (
-    <div className='form-control '>
+    <div className='form-control'>
       <label className='label'>
         <span className='label-text capitalize'>{label}</span>
       </label>
@@ -9,7 +9,7 @@ const FormInput = ({ label, name, type, defaultValue }) => {
         type={type}
         name={name}
         defaultValue={defaultValue}
-        className='input input-bordered '
+        className='input input-bordered'
       />
     </div>
   );
