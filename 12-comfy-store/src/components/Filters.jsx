@@ -1,6 +1,7 @@
 import { Form, useLoaderData, Link } from 'react-router-dom';
 import FormInput from './FormInput';
 import FormSelect from './FormSelect';
+import FormRange from './FormRange';
 
 const Filters = () => {
   const { meta } = useLoaderData();
@@ -14,6 +15,7 @@ const Filters = () => {
         name='search'
         size='input-sm'
       />
+
       {/* CATEGORIES */}
       <FormSelect
         label='select category'
@@ -21,6 +23,7 @@ const Filters = () => {
         list={meta.categories}
         size='select-sm'
       />
+
       {/* COMPANIES */}
       <FormSelect
         label='select company'
@@ -28,6 +31,7 @@ const Filters = () => {
         list={meta.companies}
         size='select-sm'
       />
+
       {/* ORDER */}
       <FormSelect
         label='sort by'
@@ -35,6 +39,10 @@ const Filters = () => {
         list={['a-z', 'z-a', 'high', 'low']}
         size='select-sm'
       />
+
+      {/* PRICE */}
+      <FormRange label='select price' name='price' size='range-sm' />
+
       {/* BUTTONS */}
       <button type='submit' className='btn btn-primary btn-sm '>
         search
@@ -45,4 +53,5 @@ const Filters = () => {
     </Form>
   );
 };
+
 export default Filters;
