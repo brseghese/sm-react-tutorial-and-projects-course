@@ -3,7 +3,7 @@ import { customFetch } from '../utils';
 
 const url = '/products';
 
-export const loader = async ({ request }) => {
+export const loader = async () => {
   const response = await customFetch(url);
 
   const products = response.data.data;
