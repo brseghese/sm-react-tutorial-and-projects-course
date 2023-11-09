@@ -13,7 +13,6 @@ export const action =
 
     try {
       const response = await customFetch.post('/auth/local', data);
-
       store.dispatch(loginUser(response.data));
       toast.success('logged in successfully');
       return redirect('/');
@@ -22,7 +21,6 @@ export const action =
       const errorMessage =
         error?.response?.data?.error?.message ||
         'please double check your credentials';
-
       toast.error(errorMessage);
       return null;
     }
