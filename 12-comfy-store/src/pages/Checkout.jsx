@@ -7,7 +7,7 @@ export const loader = (store) => async () => {
   const user = store.getState().userState.user;
 
   if (!user) {
-    toast.warn('You must be logged in to checkout');
+    toast.warn('You must be logged in to checkout.');
     return redirect('/login');
   }
   return null;

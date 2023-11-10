@@ -14,13 +14,13 @@ export const action =
     try {
       const response = await customFetch.post('/auth/local', data);
       store.dispatch(loginUser(response.data));
-      toast.success('logged in successfully');
+      toast.success('Logged in successfully.');
       return redirect('/');
     } catch (error) {
       console.log(error);
       const errorMessage =
         error?.response?.data?.error?.message ||
-        'please double check your credentials';
+        'Please double check your credentials.';
       toast.error(errorMessage);
       return null;
     }
@@ -37,11 +37,11 @@ const Login = () => {
         password: 'secret',
       });
       dispatch(loginUser(response.data));
-      toast.success('welcome guest user');
+      toast.success('Welcome Guest User.');
       navigate('/');
     } catch (error) {
       console.log(error);
-      toast.error('guest user login error.please try later.');
+      toast.error('Guest User login error. Please try later.');
     }
   };
 

@@ -10,12 +10,12 @@ export const action = async ({ request }) => {
 
   try {
     const response = await customFetch.post('/auth/local/register', data);
-    toast.success('account created successfully');
+    toast.success('Account Created Successfully.');
     return redirect('/login');
   } catch (error) {
     const errorMessage =
       error?.response?.data?.error?.message ||
-      'please double check your credentials';
+      'Please double check your credentials.';
     toast.error(errorMessage);
     return null;
   }
