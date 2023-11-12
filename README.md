@@ -44,6 +44,10 @@
 
 - Hands-on - Project [Cart Redux](https://sm-react-cart-redux.netlify.app/)🔗
 
+### 🔶 Final Project
+
+- Hands-on - Project [Comfy-Store](https://sm-react-comfy-store.netlify.app/)
+
 ---
 
 > Copyright &copy; 2023 by **Bruno Seghese**
